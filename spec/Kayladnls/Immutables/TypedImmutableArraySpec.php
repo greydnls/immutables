@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\BigName\Immutables;
+namespace spec\Kayladnls\Immutables;
 
-use BigName\Immutables\InvalidType;
-use BigName\Immutables\Stubs\ArbitrarilyTypedImmutableArray;
-use BigName\Immutables\Stubs\ArbitrarilyTypedObject;
+use Kayladnls\Immutables\InvalidType;
+use Kayladnls\Immutables\Stubs\ArbitrarilyTypedImmutableArray;
+use Kayladnls\Immutables\Stubs\ArbitrarilyTypedObject;
 
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
@@ -13,13 +13,13 @@ class TypedImmutableArraySpec extends ObjectBehavior
 {
     function let(ArbitrarilyTypedObject $typedObject)
     {
-        $this->beAnInstanceOf(ArbitrarilyTypedImmutableArray::class);
+        $this->beAnInstanceOf('Kayladnls\Immutables\Stubs\ArbitrarilyTypedImmutableArray');
         $this->beConstructedWith([$typedObject, $typedObject, $typedObject]);
     }
 
     function it_is_initializable()
     {
-        $this->shouldHaveType(ArbitrarilyTypedImmutableArray::class);
+        $this->shouldHaveType('Kayladnls\Immutables\Stubs\ArbitrarilyTypedImmutableArray');
     }
 
     function it_throws_an_exception_when_attempting_to_contain_an_invalid_type()

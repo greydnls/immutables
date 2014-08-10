@@ -1,4 +1,4 @@
-<?php namespace BigName\Immutables;
+<?php namespace Kayladnls\Immutables;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -7,7 +7,7 @@ use IteratorAggregate;
 
 /**
  * Class ImmutableArray
- * @package BigName\Immutables
+ * @package Kayladnls\Immutables
  */
 class ImmutableArray implements Countable, ArrayAccess, IteratorAggregate
 {

@@ -1,3 +1,3 @@
-<?php namespace BigName\Immutables\Stubs; 
+<?php namespace Kayladnls\Immutables\Stubs;
 
 class ArbitrarilyTypedObject {}

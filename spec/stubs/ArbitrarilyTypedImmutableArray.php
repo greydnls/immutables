@@ -1,7 +1,7 @@
-<?php namespace BigName\Immutables\Stubs;
+<?php namespace Kayladnls\Immutables\Stubs;
 
-use BigName\Immutables\InvalidType;
-use BigName\Immutables\TypedImmutableArray;
+use Kayladnls\Immutables\InvalidType;
+use Kayladnls\Immutables\TypedImmutableArray;
 
 final class ArbitrarilyTypedImmutableArray extends TypedImmutableArray
 {

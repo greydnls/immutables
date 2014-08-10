@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\BigName\Immutables;
+namespace spec\Kayladnls\Immutables;
 
-use BigName\Immutables\CannotModifyImmutable;
-use BigName\Immutables\CannotModifyImmutableArrayException;
-use BigName\Immutables\ImmutableArray;
+use Kayladnls\Immutables\CannotModifyImmutable;
+use Kayladnls\Immutables\CannotModifyImmutableArrayException;
+use Kayladnls\Immutables\ImmutableArray;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
@@ -17,7 +17,7 @@ class ImmutableArraySpec extends ObjectBehavior
 
     function it_is_initializable()
     {
-        $this->shouldHaveType(ImmutableArray::class);
+        $this->shouldHaveType('Kayladnls\Immutables\ImmutableArray');
     }
 
     function it_can_count_the_items()

@@ -1,7 +1,7 @@
-<?php namespace BigName\Immutables;
+<?php namespace Kayladnls\Immutables;
 
 /**
  * Class CannotModifyImmutable
- * @package BigName\Immutables
+ * @package Kayladnls\Immutables
  */
 class CannotModifyImmutable extends \Exception implements ImmutablesException {}

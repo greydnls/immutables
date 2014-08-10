@@ -1,8 +1,8 @@
 {
-    "name": "heybigname/immutables",
+    "name": "kayladnls/immutables",
     "version": "0.0.1",
     "tags": ["immutable arrays", "typed arrays"],
-    "description": "A repository of immutable objects.",
+    "description": "A PHP 5.4 compatible version of heybigname/immutables.",
     "authors": [
         {
             "name": "Mitchell van Wijngaarden",
@@ -12,22 +12,25 @@
             "name": "Shawn McCool",
             "email": "shawn@heybigname.com",
             "homepage": "http://heybigname.com"
+        }, {
+            "name": "Kayla Daniels",
+            "email": "kayladnls@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5.0"
+        "php": ">=5.4.0"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.0"
     },
     "autoload": {
         "psr-4": {
-            "BigName\\Immutables\\": "src/"
+            "Kayladnls\\Immutables\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BigName\\Immutables\\Stubs\\": "spec/stubs/"
+            "Kayladnls\\Immutables\\Stubs\\": "spec/stubs/"
         }
     },
     "config": {

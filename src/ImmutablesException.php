@@ -1,7 +1,7 @@
-<?php namespace BigName\Immutables;
+<?php namespace Kayladnls\Immutables;
 
 /**
  * Interface ImmutablesException
- * @package BigName\Immutables
+ * @package Kayladnls\Immutables
  */
 interface ImmutablesException {}

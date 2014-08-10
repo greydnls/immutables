@@ -1,8 +1,8 @@
-<?php namespace BigName\Immutables;
+<?php namespace Kayladnls\Immutables;
 
 /**
  * Class TypedImmutableArray
- * @package BigName\Immutables
+ * @package Kayladnls\Immutables
  */
 abstract class TypedImmutableArray extends ImmutableArray
 {
