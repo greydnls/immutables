@@ -1,5 +1,5 @@
 {
-    "name": "Kayla/immutables",
+    "name": "kayla/immutables",
     "version": "0.0.1",
     "tags": ["immutable arrays", "typed arrays"],
     "description": "A PHP 5.4 compatible version of heybigname/immutables.",
