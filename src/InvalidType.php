@@ -1,7 +1,7 @@
-<?php namespace Kayladnls\Immutables;
+<?php namespace Kayla\Immutables;
 
 /**
  * Class InvalidType
- * @package Kayladnls\Immutables
+ * @package Kayla\Immutables
  */
 class InvalidType extends \Exception implements ImmutablesException {}

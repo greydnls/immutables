@@ -1,7 +1,7 @@
 ---
 suites:
   workflow_suite:
-    namespace: Kayladnls\Immutables
-    psr4_prefix: Kayladnls\Immutables
+    namespace: Kayla\Immutables
+    psr4_prefix: Kayla\Immutables
 
 formatter.name: pretty

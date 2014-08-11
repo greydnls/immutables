@@ -1,8 +1,8 @@
-<?php namespace Kayladnls\Immutables;
+<?php namespace Kayla\Immutables;
 
 /**
  * Class TypedImmutableArray
- * @package Kayladnls\Immutables
+ * @package Kayla\Immutables
  */
 abstract class TypedImmutableArray extends ImmutableArray
 {

@@ -1,5 +1,5 @@
 {
-    "name": "kayladnls/immutables",
+    "name": "Kayla/immutables",
     "version": "0.0.1",
     "tags": ["immutable arrays", "typed arrays"],
     "description": "A PHP 5.4 compatible version of heybigname/immutables.",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kayladnls\\Immutables\\": "src/"
+            "Kayla\\Immutables\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kayladnls\\Immutables\\Stubs\\": "spec/stubs/"
+            "Kayla\\Immutables\\Stubs\\": "spec/stubs/"
         }
     },
     "config": {
